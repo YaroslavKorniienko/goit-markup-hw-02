@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: #212121;
+  --main-text-color: #212121;
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
   --accent-color: #2196f3;
@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   background-color: var(--white-background-color);
-  color: var(--primary-text-color);
+  color: var(--main-text-color);
 }
 /*--шапка--*/
 /*--- убираем точки у списков ---*/
@@ -30,7 +30,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--accent-color);
 }
 .logo-studio {
@@ -40,14 +40,14 @@ body {
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14x;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--main-text-color);
 }
 .header-contacts-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -56,4 +56,90 @@ body {
 .header-contacts-list:hover,
 .header-contacts-list:focus {
   color: var(--accent-color);
+}
+.header-link.current {
+  color: var(--accent-color);
+}
+/*---герой---*/
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88x;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--white-text-color);
+  color: var(--accent-color);
+}
+/*---приемущества---*/
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/*---чем мы занимаемся---*/
+/*---наша команда---*/
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.section-team {
+  background-color: var(--team-background-color);
+}
+
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.team-job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
